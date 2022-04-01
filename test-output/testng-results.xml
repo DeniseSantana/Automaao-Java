@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28029" started-at="2022-03-16T13:10:30Z" finished-at="2022-03-16T13:10:58Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="CustomTestNGCucumberTestsWeb.runScenario(br.com.santander.core.webdriver.driver.DriverType, io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="runScenario" class="br.com.santander.test.support.CustomTestNGCucumberTestsWeb"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="28029" started-at="2022-03-16T13:10:30Z" finished-at="2022-03-16T13:10:58Z">
+      <class name="br.com.santander.test.runners.DemoRunner">
+        <test-method status="PASS" signature="beforeSuite(org.testng.xml.XmlTest)[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="beforeSuite" is-config="true" duration-ms="51" started-at="2022-03-16T13:10:30Z" finished-at="2022-03-16T13:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@b0ab9a79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="setUpClass" is-config="true" duration-ms="342" started-at="2022-03-16T13:10:30Z" finished-at="2022-03-16T13:10:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="beforeMethod" is-config="true" duration-ms="5604" started-at="2022-03-16T13:10:31Z" finished-at="2022-03-16T13:10:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@793f29ff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="runScenario(br.com.santander.core.webdriver.driver.DriverType, io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="runScenario" duration-ms="20001" started-at="2022-03-16T13:10:36Z" description="Cucumber Scenarios" data-provider="mergedScenariosDriverTypes" finished-at="2022-03-16T13:10:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["more"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA["More"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="afterMethod" is-config="true" duration-ms="1658" started-at="2022-03-16T13:10:56Z" finished-at="2022-03-16T13:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="tearDownClass" is-config="true" duration-ms="197" started-at="2022-03-16T13:10:58Z" finished-at="2022-03-16T13:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:br.com.santander.test.runners.DemoRunner@3bb9a3ff]" name="afterSuite" is-config="true" duration-ms="0" started-at="2022-03-16T13:10:59Z" finished-at="2022-03-16T13:10:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- br.com.santander.test.runners.DemoRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
